@@ -3,6 +3,7 @@
     --forest-green: #024D4C;
     --yellow: #fdfbf1;
     --dark-yellow: #fee39f;
+    --red: #b5460f;
 }
 
 
@@ -16,12 +17,47 @@ body{
     text-align: center;
 }
 
+.left{
+    text-align: left;
+}
+
+.green{
+    color: var(--forest-green);
+}
+
+.red{
+    color: var(--red)
+}
+
+.larger{
+    font-weight: 600;
+}
+
+.bold{
+    font-weight: 800;
+}
+
 .blue-border{
-    border-bottom: ;
+    padding-bottom: 15px;
+    border-bottom: rgb(167, 225, 239) solid 1px;
+}
+
+.left-border{
+    border-left: solid var(--dark-yellow) 3px;
+    padding-left: 15px;
+}
+
+.top-margin{
+    margin-top: 40px;
 }
 
 header{
     padding: 20px auto;
+}
+
+.logo{
+    max-width: 300px;
+    margin-top: 15px;
 }
 
 video{
@@ -40,6 +76,11 @@ header p{
     background-color: var(--yellow);
     padding: 20px 0px;
     border-top: var(--dark-yellow) solid;
+}
+
+div p{
+    text-transform: uppercase;
+    margin-bottom: 2px;
 }
 
 @media screen and (max-width: 992px){
